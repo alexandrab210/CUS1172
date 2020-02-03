@@ -7,7 +7,51 @@
       </head>
       <body>
         <h1> Alexandra Braithwaite</h1>
-        <h2> Major: Information Technology, Minor: Business Administration</h2>
+        <h3> Major: Information Technology, Minor: Business Administration</h3>
+        
         <img src="https://www.iconfinder.com/icons/288081/avatar_business_businesswoman_female_people_user_woman_icon height="50%" width="50%" />
+        <break>
+        <break>
+        <break>
+        
+        <h2> Education </h2>
+        <p> I am currently a Senior at St. John's University. My major is in Infromation Technology with a minor in Business Administration.
+        Previously I attened University of Hartford in Hartford, CT. </p>
+        <h3> Degrees and Certifications </h3>
+        <ul> 
+          <li> B.S in Information Technology (in progress)
+          <li> Google Analytics Certified
+         </ul>
+       
+        <break>
+        <break>
+        <break>
+        <h2> Experience </h2>
+        <h3> Retail and Hospitality </h3>
+        <ul> 
+          <li> Gap, Inc </li>
+          <li> Lawrence Yatch & COuntry Club </li>
+         </ul>
+         
+        <break>
+        <break>
+        <break>
+        <h2> Programming Experience </h2>
+        <ul>
+          <li> Java - Expert </li>
+          <li> C++ - Expert </li>
+          <li> SQL - Intermediate </li>
+          
+        <break>
+        <break>
+        <break>
+        <h2> General Interests </h2>
+        <p> I am very big on concerts and traveling. In the past 2 years I have traveled to 10 countries
+        and I have gone to 12 concerts. Music and traveling are very important factors in life, seeing that 
+        I enjoy the way they change my mood. </p>
+        
+        <h3> Favorite Song </h3>
+        <iframe> 
+       
       </body>
   </html>
