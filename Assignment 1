@@ -51,8 +51,16 @@
         I enjoy the way they change my mood. </p>
         
      
-        <iframe src = "https://www.youtube.com/watch?v=8zm7pnWaIPE"> </iframe>
         <h3> Favorite Song </h3>
+        <iframe src = "https://www.youtube.com/watch?v=8zm7pnWaIPE"> </iframe>
+        
+        
+        <a href="https://shop.nordstrom.com" target="_blank">My Favorite Website!</a>
+        <p> Nordstrom is one of my favorite stores to shop at. I chack online at least 3 times a week to see the latest collections
+        from all the new designers. If I'm not online I go to Roosevelt Field and shop in store. </p>
        
+        <break>
+        <break>
+        <break>
       </body>
   </html>
