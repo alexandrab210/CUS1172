@@ -1,0 +1,168 @@
+<!DOCTYPE>
+  <html>
+    <head>
+      <style>
+        h3
+        {
+          text-decoration: underline;
+        }
+        </style>
+      
+      <title>WELCOME!</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="style1.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <div class="jumbotron text-center">
+        <img src="15490210.jpg" class="img-thumbnail" height="200" width="200">
+        <h1>Alexandra Braithwaite</h1>
+        <p id=para1>St. John's University | Information Technology | Business Administration</p>
+        <nav class="navbar navbar-expand-sm bg-light">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="education.asp">Education</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="experience.asp">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="programming_experience.asp">Programming Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="general_interests.asp">General Interests</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="favorites.asp">Favorites</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.asp">Projects</a>
+              </li>
+            </ul>
+        </nav>
+      </div>
+      
+      <div>
+        <h3>Education</h3>
+        <p>I am senior, currently persuing a Bachelor's of Science degree in Information Technology. I started St. John's Univserity
+        in 2017, after previously attending University of Hartford in Hartford, CT.</p>
+        <h5>Degrees & Certifications</h5>
+          <ul class=a>
+            <li>Bachelor's Degree (in progress)</li>
+            <li> Google Analytics Certified</li>
+          </ul>
+      </div>
+      
+      <div>
+        <h3>Experience</h3>
+        <h5>Work</h5>
+          <ul>
+            <li>Retail: Gap,Inc.</li>
+            <li>Hospitality: Lawrence Yacht & Country Club</li>
+          </ul>
+        <h5>Programming</h5>
+          <ul>
+            <li>Java</li>
+            <li>C++</li>
+            <li>SQL</li>
+            <li>HTML</li>
+          </ul>
+      </div>
+      
+      <div>
+        <h3>General Interests</h3>
+         <p> For the most part I like to listen to music, travel and go to concerts. My favporite
+            sport to watch is Basketball. My favorite team is the Golden State Warriors. I also enjoy playikng instruments.
+            I can currently play the guitar, violin, piano and drums.</p>
+       
+            <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th style="text-align: center;">Country</th>
+                <th style="text-align: center;">Times Visited</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style = "text-align:center;">Jamaica</td>
+    			<td style = "text-align:center;">15</td> 
+            </tr>
+            <tr>
+                <td style = "text-align:center;">France</td>
+    			<td style = "text-align:center;">1</td> 
+            </tr>
+            <tr>
+                <td style = "text-align:center;">Italy</td>
+    			<td style = "text-align:center;">1</td> 
+            </tr>
+            </tbody>
+            </table> 
+      </div>
+      
+      <div class="jumbotron text-center">
+        <h2>My Favorites</h2>
+      </div>
+      
+      <div>
+        <h3 style="text-align: center">Website:<a href="https://www.youtube.com" data-toggle="popover" title="Favorite Website" data-content="Youtube is my favorite webstie. It is a staple in my everyday life. I use to to either watch interviews or listen to the latest music. ">YouTube</a></h3>
+        </div>
+        <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();   
+        });
+        </script>
+      </div>
+      <br>
+      
+      <div class="container">
+        <div class="row">
+        <div class="col-sm-4">
+            <h3>Movie</h3>
+            <img src="lnb.jpeg" height="300" width="300">
+        </div>
+        <div class="col-sm-4">
+            <h3>Song</h3>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oNyLjFPPgQw" height="300" width="400"></iframe>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>Show</h3>
+            <img src="dynasty.jpg" height="300" width="300">
+        </div>
+        </div>
+      </div>
+      <br>
+      
+      <div>
+        <h3>Projects</h3>
+          <ol type="1">
+            <li> Assignment 1 - devolping a vebpage about oursevles</li>
+            <li> Assignment 2 - updating webpage from Assignment 1 with CSS </li>
+            <li> Assignmnet 3 - style webpage using Bootstrap and CSS from Assignment 2</li>
+          </ol>
+      </div>
+      
+      <div>
+        <p> Does this form work?</p>
+          <form action="/action_page.php">
+            <div class="form-check-inline">
+              <label class="form-check-label" for="radio1">
+                <input type="radio" class="form-check-input" id="radio1" name="choice" value="Yes"checke>Yes
+              </label>
+            </div>
+            <div class="form-check-inline">
+              <label class="form-check-label" for="radio2">
+                <input type="radio" class="form-check-input" id="radio2" name="choice" value="No">No
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+      
+    </body>
+  </html>
