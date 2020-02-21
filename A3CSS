@@ -1,0 +1,23 @@
+body
+{
+	background-color:#b19cd9;
+}
+a
+{
+	color: black;
+}
+table, th, td
+{
+  border: 1px solid black;
+}
+h5
+{
+    font-style: italic;
+}
+#para1
+{
+	    font-style: italic;
+}ul.a
+{
+	list-style-type: square;
+}
